@@ -1,5 +1,12 @@
 @import "tailwindcss";
 
 body {
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: 'Inter', sans-serif;
+  background: #fafafa;
+  color: #1e293b;
+  min-height: 100vh;
+}
+
+html {
+  scroll-behavior: smooth;
 }
