@@ -1,3 +1,7 @@
+import profileImage from "./assets/profile.jpg";
+import intelDrawImage from "./assets/projects/intel-draw.png";
+import workLensImage from "./assets/projects/work-lens.png";
+
 export const siteConfig = {
   name: "Abdulwahid Hussen",
   title: "Software Engineer | AI & Backend Systems",
@@ -11,6 +15,18 @@ export const siteConfig = {
     twitter: "",
     phone: "+251991290496",
   },
+  siteUrl: "https://abdulwahid.dev",
+  keywords: [
+    "Software Engineer Ethiopia",
+    "Abdulwahid Hussen",
+    "AI Engineer Ethiopia",
+    "Full Stack Developer Ethiopia",
+    "Backend Engineer",
+    "Generative AI Specialist",
+    "System Architect",
+    "A2SV Alumni",
+    "Addis Ababa Developer",
+  ],
   aboutMe:
     "Software Engineer specializing in Generative AI and scalable backend infrastructure. With a strong foundation in Data Structures & Algorithms (1000+ problems solved), I focus on building efficient, reliable systems that deliver real-world impact.",
   skills: [
@@ -34,7 +50,7 @@ export const siteConfig = {
       description:
         "Turn your text into instant visuals. Grow your brand with prompts and marketing funnel solutions. Features lightning-fast generation, seamless collaboration, and export in any format.",
       link: "https://inteldraw.com/",
-      image: "/projects/intel-draw.png",
+      image: intelDrawImage,
       skills: ["Generative AI", "React", "Node.js"],
     },
     {
@@ -42,7 +58,7 @@ export const siteConfig = {
       description:
         "AI Workspace that connects to your existing tools. Stop switching between AI assistants and work tools. WorkLens brings AI directly into your workflow with GitHub, Google, and Slack integrations.",
       link: "https://worklense.com/",
-      image: "/projects/work-lens.png",
+      image: workLensImage,
       skills: ["Next.js", "Python", "MongoDB", "AI Agents"],
     },
   ],

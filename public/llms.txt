@@ -1,0 +1,59 @@
+# Abdulwahid Hussen
+> Software Engineer | AI & Backend Systems
+
+## Bio
+Software Engineer specializing in Generative AI and scalable backend infrastructure. With a strong foundation in Data Structures & Algorithms (1000+ problems solved), I focus on building efficient, reliable systems that deliver real-world impact. I specialize in architecting robust, production-ready solutions that seamlessly integrate advanced AI capabilities with mission-critical business workflows.
+
+## Contact
+- **Email**: abdulwahidhussen750@gmail.com
+- **Phone**: +251991290496
+- **LinkedIn**: https://linkedin.com/in/abdulwahidhussen
+- **GitHub**: https://github.com/AbdulwahidHusein
+- **Website**: https://abdulwahid.dev
+
+## Technical Skills
+- **AI & ML**: Generative AI, AI Agents, Python
+- **Backend**: Golang, System Architecture, PostgreSQL, MongoDB
+- **Frontend**: TypeScript, React, Next.js
+- **DevOps**: AWS, Docker, CI/CD
+
+## Experience
+
+### Amplitude Ventures (07/2023 – Present)
+**Generative AI Engineer**
+- Engineered the core AI engine for a content creation platform used by 15+ marketing specialists.
+- Optimized RAG workflows on AWS and deployed 3 scalable AI solutions, directly driving a 40% increase in user engagement and response accuracy.
+
+### AIHLPR (03/2024 – 01/2025)
+**AI Automation Engineer**
+- Architected autonomous agents that eliminated manual data bottlenecks, increasing operational efficiency by 60%.
+- Integrated large-scale AI models for real-time data processing, enabling faster, data-driven decision making for enterprise clients.
+
+### Eskalate (02/2021 – 07/2024)
+**Full-Stack Developer**
+- Built the backbone of a high-volume restaurant ERP system, designing 50+ scalable RESTful API endpoints in Go.
+- Led backend integration for a team of 6, streamlining development cycles and accelerating feature launches by 30%.
+
+## Projects
+
+### Intel Draw
+**Description**: Turn your text into instant visuals. Grow your brand with prompts and marketing funnel solutions. Features lightning-fast generation, seamless collaboration, and export in any format.
+**Tech Stack**: Generative AI, React, Node.js
+**Link**: https://inteldraw.com/
+
+### Work Lens
+**Description**: AI Workspace that connects to your existing tools. Stop switching between AI assistants and work tools. WorkLens brings AI directly into your workflow with GitHub, Google, and Slack integrations.
+**Tech Stack**: Next.js, Python, MongoDB, AI Agents
+**Link**: https://worklense.com/
+
+## Education & Training
+
+### Africa To Silicon Valley | A2SV (12/2023 – Present)
+**Data Structures & Algorithms Expert**
+- Elite engineering academy. Solved 1000+ complex algorithmic problems on LeetCode/Codeforces.
+- Selected for top-tier placement program with a focus on system design and scalable architecture.
+
+### Adama Science and Technology University (11/2022 – 05/2026)
+**Bachelor's degree in Software Engineering**
+- CGPA: 3.9/4.0.
+- Specialized in Distributed Systems and Advanced Database Architecture.

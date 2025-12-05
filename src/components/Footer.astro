@@ -129,16 +129,6 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
             >About</a
           >
           {
-            hasProjects && (
-              <a
-                href="#projects"
-                class="text-sm text-gray-600 hover:text-gray-800 transition-colors"
-              >
-                Projects
-              </a>
-            )
-          }
-          {
             hasExperience && (
               <a
                 href="#experience"
@@ -149,15 +139,21 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
             )
           }
           {
-            hasEducation && (
+            hasProjects && (
               <a
-                href="#education"
+                href="#projects"
                 class="text-sm text-gray-600 hover:text-gray-800 transition-colors"
               >
-                Education
+                Projects
               </a>
             )
           }
+          <a
+            href="#contact"
+            class="text-sm text-gray-600 hover:text-gray-800 transition-colors"
+          >
+            Contact
+          </a>
         </nav>
         <p class="text-sm text-gray-500">
           © {new Date().getFullYear()}

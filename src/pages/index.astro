@@ -26,6 +26,58 @@ import "../styles/global.css";
       rel="stylesheet"
     />
     <title>{siteConfig.name} - {siteConfig.title}</title>
+    <meta name="description" content={siteConfig.description} />
+    <meta name="keywords" content={siteConfig.keywords.join(", ")} />
+    <meta name="author" content={siteConfig.name} />
+    <link rel="canonical" href={siteConfig.siteUrl} />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={siteConfig.siteUrl} />
+    <meta property="og:title" content={`${siteConfig.name} - ${siteConfig.title}`} />
+    <meta property="og:description" content={siteConfig.description} />
+    <meta property="og:image" content={`${siteConfig.siteUrl}/og-image.png`} />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content={siteConfig.siteUrl} />
+    <meta property="twitter:title" content={`${siteConfig.name} - ${siteConfig.title}`} />
+    <meta property="twitter:description" content={siteConfig.description} />
+    <meta property="twitter:image" content={`${siteConfig.siteUrl}/og-image.png`} />
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": siteConfig.name,
+      "url": siteConfig.siteUrl,
+      "image": `${siteConfig.siteUrl}/profile.jpg`,
+      "sameAs": [
+        siteConfig.social.linkedin,
+        siteConfig.social.github,
+        siteConfig.social.twitter
+      ].filter(Boolean),
+      "jobTitle": "Software Engineer",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Amplitude Ventures"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Addis Ababa",
+        "addressCountry": "Ethiopia"
+      },
+      "alumniOf": [
+        {
+          "@type": "Organization",
+          "name": "A2SV | Africa to Silicon Valley"
+        },
+        {
+          "@type": "CollegeOrUniversity",
+          "name": "Adama Science and Technology University"
+        }
+      ]
+    })} />
   </head>
   <body>
     <SocialRail />

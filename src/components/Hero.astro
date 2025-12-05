@@ -1,5 +1,7 @@
 ---
+import { Image } from "astro:assets";
 import { siteConfig } from "../config";
+import profileImage from "../assets/profile.jpg";
 ---
 
 <div
@@ -10,7 +12,7 @@ import { siteConfig } from "../config";
     <div class="flex flex-col-reverse lg:flex-row items-center gap-8 lg:gap-16">
       <div class="flex-1 text-center lg:text-left">
         <h2
-          class="text-lg font-semibold tracking-wide text-gray-500 uppercase animate-fade-in"
+          class="text-lg font-semibold tracking-wide text-blue-600 uppercase animate-fade-in"
         >
           Hello, I'm
         </h2>
@@ -44,10 +46,11 @@ import { siteConfig } from "../config";
       </div>
 
       <div class="flex-shrink-0 animate-fade-in animation-delay-200 mb-8 lg:mb-0">
-        <img
-          src="/profile.jpg"
+        <Image
+          src={profileImage}
           alt={siteConfig.name}
           class="w-40 sm:w-64 lg:w-80 aspect-[3/4] object-cover rounded-2xl shadow-sm border border-gray-100"
+          loading="eager"
         />
       </div>
     </div>
