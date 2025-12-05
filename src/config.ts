@@ -15,7 +15,7 @@ export const siteConfig = {
     twitter: "",
     phone: "+251991290496",
   },
-  siteUrl: "https://abdulwahid.dev",
+  siteUrl: "https://abdulwahidhussen.com",
   keywords: [
     "Software Engineer Ethiopia",
     "Abdulwahid Hussen",
